@@ -4,6 +4,11 @@ This repository implements the scenario of a **SQL injection attack** on a custo
 Below, we are going to have a brief look at the exact SQL commands used to set up the demo database, along with detailed descriptions of each table. After that, we will demonstrate the use of the app using a step-by-step presentation of a malicious attack scenario!
 
 <br>
+
+## 📢Note📢
+🎯Please, clone this repository before reading the description. Don't forget to like👍and share your thoughts😊.
+
+<br>
 <br>
 
 ## Database Set Up
@@ -45,11 +50,21 @@ NOT NULL, successful boolean NOT NULL, date VARCHAR(100) NOT NULL);
 <br>
 <br>
 
-## User Lock Feature
+## User Lock Feature 🔐
 The application is designed in a way that blocks (for security reasons) the IP addresses of the users who attempt to login to the application, in case they perform more than two consecutive failed login attempts. The reason why choosing to block the addresses, and not the user account, has to do with the fact that by design assumptions, it is desired to completely exclude the possibility of brute force attacks, as the attacker can continuously try to log in with multiple usernames, and different passwords. In this way, even if the attackers use brute force attack software in an attempt to perform a SQL injection attack, the application will lock them out (and no login attempts will be recorded from a certain point onwards). The ability to log in after being blocked becomes available again after a day passes (24 hours), and during that time, the user is constantly updated with alerts in the front-end section of the website while login attempts are not even recorded in the database!
 
 <br>
 <br>
 
-## Change Password Feature
+## Change Password Feature 🗝
 For this particular functionality, after a successful user login, the back-end checks if ten days have passed since the last time the password was changed. If so, then it redirects the user to a new window and asks for the password to be changed again for security reasons.
+
+<br>
+<br>
+
+## Demo Scenarios
+📌 You can click [here]() to view an IP blocking demo scenario (after failed consistent attempts).
+
+<br>
+
+📌 You can click [here]() to view a SQL injection demo scenario. 
