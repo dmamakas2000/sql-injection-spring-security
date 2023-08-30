@@ -63,8 +63,8 @@ For this particular functionality, after a successful user login, the back-end c
 <br>
 
 ## Demo Scenarios
-📌 You can click [here]() to view an IP blocking demo scenario (after failed consistent attempts).
+📌 You can click [here](scenarios/ip_block_scenario.md) to view an IP blocking demo scenario (after failed consistent attempts).
 
 <br>
 
-📌 You can click [here]() to view a SQL injection demo scenario. 
+📌 You can click [here](scenarios/sql_injection_scenario.md) to view a SQL injection demo scenario. 
