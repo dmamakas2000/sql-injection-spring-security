@@ -1,5 +1,5 @@
 # SQL Injection Scenario Using Spring
-This repository implements the scenario of a **SQL injection attack** on a custom web server, using the [#Spring_Security](https://spring.io/projects/spring-security) Framework version 6.1.2, [#Gradle](https://gradle.org/), and [#PostgreSQL](https://www.postgresql.org/) for the management of the created database.
+This repository implements the scenario of a **SQL injection attack** on a custom web server, using the [#Spring-Security](https://spring.io/projects/spring-security) Framework version 6.1.2, [#Spring-Web](https://spring.io/web-applications), [#Gradle](https://gradle.org/), [#PostgreSQL](https://www.postgresql.org/) for the management of the created database, [#Lombok](https://projectlombok.org/), [#Thymeleaf](https://www.thymeleaf.org/), and [#Guava](https://github.com/google/guava). 
 
 Below, we are going to have a brief look at the exact SQL commands used to set up the demo database, along with detailed descriptions of each table. After that, we will demonstrate the use of the app using a step-by-step presentation of a malicious attack scenario!
 
