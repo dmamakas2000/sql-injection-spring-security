@@ -68,3 +68,9 @@ For this particular functionality, after a successful user login, the back-end c
 <br>
 
 📌 You can click [here](scenarios/sql_injection_scenario.md) to view a SQL injection demo scenario. 
+
+<br>
+<br>
+
+## License
+This project is licensed under the **MIT License** - see the **[LICENSE](LICENSE)** file for details.
